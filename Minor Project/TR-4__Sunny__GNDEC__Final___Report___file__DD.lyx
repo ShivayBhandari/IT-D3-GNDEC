@@ -1,0 +1,4703 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2.5cm
+\rightmargin 1.25cm
+\bottommargin 1.25cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+DEPRESSION DETECTION
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+USING ARTIFICIAL INTELLIGENCE
+\end_layout
+
+\begin_layout Standard
+\align center
+\SpecialChar allowbreak
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+REPORT
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+SUBMITTED IN PARTIAL FULFILMENT OF THE REQUIREMENTS FOR 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Six Months Industrial Training (TR-104)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+at
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+Sabudh Foundation, Mohali
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+(from July, 2021 to Dec, 2021)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+SUBMITTED BY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Sunny Kumar
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+1805110
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename gndec.png
+	width 5.1cm
+	height 4.6cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+Information Technology Department
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+GURU NANAK DEV ENGINEERING COLLEGE
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+LUDHIANA, INDIA
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+CERTIFICATE OF TRAINING
+\end_layout
+
+\begin_layout Standard
+Here I'll attach my 6th Months Industrial Training Certificate.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+STUDENT’S DECLARATION
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+I hereby certify that the work which is being presented in this training
+ report with the project entitled 
+\series default
+"Depression Detection using Artificial Intelligence"
+\series medium
+ by Sunny Kumar, University Roll No.
+ 1805110 in partial fulfillment of requirements for the award of degree
+ of B.Tech.
+ (Information Technology) submitted in the Department of Information Technology
+ at 
+\series default
+GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA under I.K.
+ GUJRAL PUNJAB TECHNICAL UNIVERSITY
+\series medium
+ is an authentic record of my own work carried out under the supervision
+ of Arya Bhattacharyya, Jr.
+ Data Scientist of Sabudh Foundation.
+ The matter presented has not been submitted by me in any other University
+ / Institute for the award of B.Tech.
+ Degree.
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+Student Name: Sunny Kumar
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series medium
+Univ.
+ Roll No: 1805110
+\end_layout
+
+\begin_layout Paragraph*
+
+\size large
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Paragraph*
+Signature of Student
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+This is to certify that the above statement made by the candidate is correct
+ to the best of my knowledge.
+\end_layout
+
+\begin_layout Paragraph*
+
+\size large
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Paragraph*
+
+\series bold
+Signature of Internal Examiner
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+The External Viva-Voce Examination of the student has been held on ____________.
+\end_layout
+
+\begin_layout Paragraph*
+
+\size large
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\series bold
+Signature of External Examiner
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Paragraph*
+
+\series bold
+Signature of HOD
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+ABSTRACT
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+The bursting scope of Artificial Intelligence has been a major source for
+ building our project on depression detection.
+ AI enables researchers to better define mental illness subtypes and understand
+ patient symptoms.
+ Addressing ethical concerns surrounding AI in psychiatry may encourage
+ clinicians to adopt the technology.
+ Depression is one of the serious conern in today's time.
+ Our motive is to built an end to end multimodal system to detect this serious
+ concern in order to save many lives.
+ The AI techniques used in our project helps to enhance the speed, precision
+ and effectiveness of human efforts by automating and detecting the causes
+ at an initial stage and get cured with a medical treatment.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+ACKNOWLEDGEMENT
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+I am highly grateful to the Dr.
+ Sehijpal Singh , Principal, Guru Nanak Dev Engineering College, Ludhiana,
+ for providing this opportunity to carry out Six Months industrial training
+ at Sabudh Foundation, Mohali.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+The constant guidance and encouragement received from Dr.
+ K.
+ S.
+ Mann, HoD, GNDEC Ludhiana has been of great help during the training and
+ project work and is acknowledged with reverential thanks.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+I would like to express a deep sense of gratitude and thanks profusely to
+ Dr.
+ Sarabjot Singh Anand, Director of Sabudh Foundation.
+ Without the wise counsel and able guidance, it would have been impossible
+ to complete the report in this manner.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+The help rendered by Mr.
+ Arya Bhattacharyya, Jr.
+ Data Scientist (Sabudh Foundation) for experimentation is greatly acknowledged.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+I express gratitude to other faculty members of Information Technology departmen
+t of GNDEC for their intellectual support throughout the course of this
+ work.
+\end_layout
+
+\begin_layout Paragraph*
+
+\series medium
+Finally, I am indebted to all whosoever have contributed in this report
+ work and friendly stay at Sabudh Foundation.
+\end_layout
+
+\begin_layout Paragraph*
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Paragraph*
+Sunny Kumar
+\end_layout
+
+\begin_layout Address
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset FloatList algorithm
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset FloatList table
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+List of Abbreviations
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\series bold
+\begin_inset space \hspace{}
+\length 0.53cm
+\end_inset
+
+Abbreviation
+\begin_inset space \hspace{}
+\length 5.18cm
+\end_inset
+
+Full Form
+\end_layout
+
+\begin_layout Standard
+LSTM
+\begin_inset space \hspace{}
+\length 6.5cm
+\end_inset
+
+Long-Short Term Memory
+\end_layout
+
+\begin_layout Standard
+BVP
+\begin_inset space \hspace{}
+\length 6.73cm
+\end_inset
+
+Blood Volume Pulse
+\end_layout
+
+\begin_layout Standard
+EAR
+\begin_inset space \hspace{}
+\length 6.73cm
+\end_inset
+
+Eye Aspect Ratio
+\end_layout
+
+\begin_layout Standard
+ECG
+\begin_inset space \hspace{}
+\length 6.72cm
+\end_inset
+
+Electrocardiogram
+\end_layout
+
+\begin_layout Standard
+ANN
+\begin_inset space \hspace{}
+\length 6.68cm
+\end_inset
+
+Artificial Neural Networks
+\end_layout
+
+\begin_layout Standard
+CBEM
+\begin_inset space \hspace{}
+\length 6.44cm
+\end_inset
+
+Content Based Ensemble Model
+\end_layout
+
+\begin_layout Standard
+FERM
+\begin_inset space \hspace{}
+\length 6.5cm
+\end_inset
+
+Facial Emotion Recognition Models
+\end_layout
+
+\begin_layout Standard
+AAM
+\begin_inset space \hspace{}
+\length 6.66cm
+\end_inset
+
+Active Appearance Models
+\end_layout
+
+\begin_layout Standard
+MIL
+\begin_inset space \hspace{}
+\length 6.86cm
+\end_inset
+
+Multiple Instance Learning
+\end_layout
+
+\begin_layout Standard
+DCNN
+\begin_inset space \hspace{}
+\length 6.5cm
+\end_inset
+
+Deep Convolutional Neutral Networks
+\end_layout
+
+\begin_layout Standard
+TDA
+\begin_inset space \hspace{}
+\length 6.8cm
+\end_inset
+
+Topological Data Analysis
+\end_layout
+
+\begin_layout Standard
+DOCC
+\begin_inset space \hspace{}
+\length 6.57cm
+\end_inset
+
+Damped Oscillator Cepstral Coffecients
+\end_layout
+
+\begin_layout Standard
+SVM
+\begin_inset space \hspace{}
+\length 6.82cm
+\end_inset
+
+Support Vector Machine
+\end_layout
+
+\begin_layout Standard
+FER
+\begin_inset space \hspace{}
+\length 6.89cm
+\end_inset
+
+Face Emotion Recognizer
+\end_layout
+
+\begin_layout Standard
+CNN
+\begin_inset space \hspace{}
+\length 6.83cm
+\end_inset
+
+Convolutional Neural Network
+\end_layout
+
+\begin_layout Standard
+MTCNN
+\begin_inset space \hspace{}
+\length 6.33cm
+\end_inset
+
+Multi-task Cascade Convolutional Neural Network
+\end_layout
+
+\begin_layout Address
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+Title page
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+Certificate of Training
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+Student’s Declaration................................................................................................i
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+Abstract ..................................................................................................................ii
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+Acknowledgement .....................................................................................................iii
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+List of Figures ..........................................................................................................iv
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+List of Algorithms......................................................................................................v
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+List of Tables.............................................................................................................vi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+List of Abbreviations...................................................................................................vii
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+Table of Contents .......................................................................................................viii
+\end_layout
+
+\begin_layout Address
+\align center
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Introduction to Organization 
+\end_layout
+
+\begin_layout Standard
+Sabudh Foundation - An NGO that applies data science for social good.
+ Sabudh Foundation is formed by the leading data scientists in the industry
+ with the objective to bring together data and young data scientists to
+ work on focused, collaborative projects for social benefit.
+ Sabudh foundation is working on solving the real and high impact problems
+ in areas such as education, governance, healthcare, and agriculture using
+ Artificial Intelligence and Machine Learning techniques.
+ Data science can be used across a number of industries in order to be beneficia
+l for the society.
+ For example in agriculture, there are now Agrobots and drones being used
+ to gauge the health of the harvest that can help farmers improve their
+ crop yield and reduce costs.
+ With the help of advanced technologies, we’re able to save 90 The foundation
+ has taken steps to involve Colleges, Universities, and Industry from the
+ region for the social cause.
+ Particularly, the foundation has signed academic and researchbased MoUs
+ with Panjab University, Chandigarh, GNDEC, Ludhiana, BML Munjal University,
+ Punjab Government (Punjab Police), Punjabi University, Patiala, and Punjab
+ Engineering College, Chandigarh.
+\end_layout
+
+\begin_layout Subsection
+Introduction to Project
+\end_layout
+
+\begin_layout Standard
+Depression being one of the most common mental disorders that is still not
+ well understood in both research and clinical practice tilll date.
+ Not all patients suffer with the same symptoms thus its a bit difficult
+ to diagnose such an illness.
+ More seriously, Depression can lead to self-mutilation and suicide behaviors.
+ According to the World Health Organization in 2017, there are about 350
+ million depressive patient worldwide and depression will become the second
+ leading cause of death by 2030.
+ Depression and anxiety disorders are highly prevalent world wide.
+ But fortunately it is treatable, people with depression and anxiety also
+ have increased absenteeism and presenteeism rates as well as low productivity
+ resulting in decreased work performance.Therefore, we are building up an
+ effective AI system that helps to detect depression in patients at an early
+ stage.
+\end_layout
+
+\begin_layout Subsection
+Project Category
+\end_layout
+
+\begin_layout Itemize
+Web Application
+\end_layout
+
+\begin_layout Itemize
+System Development
+\end_layout
+
+\begin_layout Itemize
+Internet based
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Objectives
+\end_layout
+
+\begin_layout Itemize
+To use artificial intelligence for detection of depression in patients.
+\end_layout
+
+\begin_layout Itemize
+To design an end to end encrypted model that helps to rectify mental disorder.
+\end_layout
+
+\begin_layout Itemize
+To monitor the progress of a patient by observing their interactive intellectual
+ and behavior in order to draw general conclusions.
+\end_layout
+
+\begin_layout Subsection
+Problem Formulation
+\end_layout
+
+\begin_layout Standard
+This project is built in association with the organization known as “lifeback”.
+ This organization is headed by one of the doctor at RML hospital.
+ This organization demanded to make an end-to-end AI based system so that
+ they can rectify whether a person is depressed or not based on the data
+ provided to us.
+ The data comprises of varied audios and videos as a sample for both healthy
+ and depressed people.
+\end_layout
+
+\begin_layout Subsection
+Identification/Reorganization of Need
+\end_layout
+
+\begin_layout Standard
+Identify whether person is depressed or healthy.
+ Organise data based on voice modulation, facial expression, blinking, eyeball
+ detection, unusual gesture, expressions.
+\end_layout
+
+\begin_layout Subsection
+Proposed System
+\end_layout
+
+\begin_layout Standard
+The system is proposed in a way that it deals with a general healthcare
+ issue that is to be resolved with a positive outcome on a large scale to
+ benefit the society.
+ The system is built in such a way that it enables the patients to interact
+ and coordinate well with their assisted doctors.
+ This end to end system provides proper medication, track record of patients,
+ regular mental health care checkups, text and audio visualizations and
+ a monitored healthcare guidance for its patients.
+ 
+\end_layout
+
+\begin_layout Subsection
+Unique Features of the System
+\end_layout
+
+\begin_layout Standard
+In order to built our model we extracted varied features like: Video visualizati
+on, Voice/Audio modulation, Expression fluctuation, Unsual gesture detection,
+ Blink detection model, Eyeball detection and Transcription of Audios.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Requirement Analysis and System Specification
+\end_layout
+
+\begin_layout Subsection
+Feasibility study
+\end_layout
+
+\begin_layout Standard
+Artificial intelligence has been the overpowering technology to be used
+ to combact "Depression", the leading cause of death in today's time.
+ With the increased depression rate, detecting this issue more accurately
+ and conveniently has been a major concern.
+ Keeping this in mind, healthcare practioners are in search for more feasible
+ techniques and ways to detect depression at an early stage.
+ By the usage of AI driven techniques and algorithms, many obstacles have
+ been cut down in order to establish an end to end system in our project.
+ There is a huge issue with Ethics in AI.
+ Sometimes an algorithm learns that a person belonging from particular race,
+ gender or religion has certain characteristics this is a kind of training
+ error or bias that occurs in AI and this is an ethical issue.
+ The basic platform used in it for coding was google collab as its more
+ convenient and directly connected with drive.
+ Data transfer and enormous storage was ethically managed by google drive.
+ FER model with a simplified (MTCNN) architecture added more effect to our
+ model.
+ An efficient and collaborative environment with maximum resources and least
+ expenditure defines the simplicity and feasiability of our model.
+\end_layout
+
+\begin_layout Standard
+The main objective of the feasibility study is to test the Technical, Operationa
+l and Economical feasibility for adding new device and debugging old running
+ device/system.
+ All system is feasible if they are unlimited resources.
+ There are aspects in the feasibility study portion of the preliminary investiga
+tion:
+\end_layout
+
+\begin_layout Subsubsection
+Technical Feasibility
+\end_layout
+
+\begin_layout Standard
+The technical issue usually raised during the feasibility stage of the investiga
+tion includes the following:
+\end_layout
+
+\begin_layout Itemize
+Does the necessary technology exist to do what is suggested?
+\end_layout
+
+\begin_layout Itemize
+Do the proposed equipment have the technical capacity to work properly?
+\end_layout
+
+\begin_layout Itemize
+Are there technical guarantees of accuracy, reliability, case of access
+ and control?
+\end_layout
+
+\begin_layout Subsubsection
+Operational Feasibility
+\end_layout
+
+\begin_layout Standard
+Operational feasibility aspects of the project are to be taken as an important
+ part of the project implementation.
+ Some of the important issues raised are to test the operational feasibility
+ of a project includes the following:
+\end_layout
+
+\begin_layout Itemize
+Is there controlled efficiently?
+\end_layout
+
+\begin_layout Itemize
+Will the system be used and work properly if it is being developed and implement
+ed?
+\end_layout
+
+\begin_layout Itemize
+Will there be any resistance from the user that will undetermined the possible
+ application benefits?
+\end_layout
+
+\begin_layout Subsubsection
+Economical Feasibility
+\end_layout
+
+\begin_layout Standard
+In the economic feasibility, the development cost in creating the system
+ is evaluated against the ultimate benefit derived from the new systems.
+ Financial benefits must equal or exceed the costs.
+ But if we consider the economic feasibility of our system was below the
+ nominal expenses.
+ Therefore economically our system was feasible enough.
+\end_layout
+
+\begin_layout Subsection
+System Requirement Specification
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Minimum Software required
+\end_layout
+
+\begin_layout Itemize
+Win 10 or Ubuntu 18.04
+\end_layout
+
+\begin_layout Itemize
+Python Environment/Google Collab
+\end_layout
+
+\begin_layout Itemize
+Python Editor (Visual Studio Code)
+\end_layout
+
+\begin_layout Itemize
+Python Libraries
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Minimum Hardware required
+\end_layout
+
+\begin_layout Itemize
+Intel dual core i5
+\end_layout
+
+\begin_layout Itemize
+512 GB Hard disk
+\end_layout
+
+\begin_layout Itemize
+12 GB RAM
+\end_layout
+
+\begin_layout Subsection
+Expected hurdles
+\end_layout
+
+\begin_layout Itemize
+While accessing the files from AWS S3 bucket we faced the issue regarding
+ the read permissions.
+\end_layout
+
+\begin_layout Itemize
+Run time disconnection in google collab while working with video data is
+ quite difficult.
+\end_layout
+
+\begin_layout Itemize
+After Audio slicing when we try to generate melspectrograms at some point
+ it was a bit difficult to access the audio files mounted on google drive.
+ 
+\end_layout
+
+\begin_layout Itemize
+It was diffcult to send the json responses from server to client due to
+ flaws with json serialization and primary key (object id).
+ 
+\end_layout
+
+\begin_layout Itemize
+Due to CORS (Cross-Origin Resource Sharing) error, we could not share the
+ files over the network (server to client).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+System Design
+\end_layout
+
+\begin_layout Subsection
+User Interface Design
+\end_layout
+
+\begin_layout Standard
+Our system is designed in such a way that it enables the doctor to manage
+ appointments with the patients through a web interface with respect to
+ the data provided by the hospital.
+ The doctor can even track the health status of the patient depending upon
+ the level of his/her mental condition.
+\end_layout
+
+\begin_layout Subsubsection
+Login Profile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/login.png
+	width 13cm
+	height 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Login Page
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Doctor's Profile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/dr_profile.png
+	width 13cm
+	height 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Doctor's Profile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Patient's Profile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/patients.png
+	width 13cm
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Patient's Profile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Database Design
+\end_layout
+
+\begin_layout Standard
+PostgreSQL comes with many features aimed to help developers build applications,
+ administrators to protect data integrity and build fault-tolerant environments,
+ and help you manage your data no matter how big or small the dataset.
+ In addition to being free and open source, PostgreSQL is highly extensible.
+ For example, you can define your own data types, build out custom functions,
+ even write code from different programming languages without recompiling
+ your database.
+ PostgreSQL is a powerful, open source object-relational database system
+ that uses and extends the SQL language combined with many features that
+ safely store and scale the most complicated data workloads.
+ The data alongside is a collection of varied audios and mel spectrograms.
+ Altogether this data is uploaded on postgreSQL and further on it is linked
+ with the AWS server.
+ The details like audio name, audio URLs, s3-keys, and so on are fetched
+ from the buckets.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/Database_1.png
+	width 10cm
+	height 6cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Database Design
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Database Connection and Backend Scripting
+\end_layout
+
+\begin_layout Standard
+Flask is a web framework, it’s a Python module that lets you develop web
+ applications easily and has a small and easy-to-extend core: it’s a microframew
+ork that doesn’t include an ORM (Object Relational Manager) or such features.
+ A Web Application Framework or a simply a Web Framework represents a collection
+ of libraries and modules that enable web application developers to write
+ applications without worrying about low-level details such as protocol,
+ thread management, and so on.
+ Flask’s framework is more explicit than Django’s framework and is also
+ easier to learn because it has less base code to implement a simple web-Applica
+tion.
+ A Web-Application Framework or Web Framework is the collection of modules
+ and libraries that helps the developer to write applications without writing
+ the low-level codes such as protocols, thread management, etc.
+ Flask is based on WSGI(Web Server Gateway Interface) toolkit and Jinja2
+ template engine.
+ As applications grow larger and more developers work on them, structuring
+ and naming things like routes becomes something that needs to be standardized.
+ While REST is much more than route standardization (it is a standard for
+ building web applications), one of the ideas is centering applications
+ around resources and naming the routes for those resources appropriately
+ (we call that RESTful routing).
+ Below is the CRUD operations performed for the database.
+ The abbreviation CRUD expands to Create, Read, Update and Delete.
+ These four are fundamental operations in a database.
+ In the sample database, we will create it, and do some operations.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Getting started
+\end_layout
+
+\begin_layout Standard
+Let's build our first CRUD app with Flask.
+ To get started we first need a resource.
+ Since we will be creating a file, we'll start by making a file called abc.py
+ which will store a simple file class.
+ In order to make sure that we can uniquely identify each file, we will
+ add a property called id that increments by one anytime a file is created.
+ Now let's create an app.py file to start our server with some sample data.
+ When the user visits the route /add user, let's start by creating an index
+ route where we will return a template that shows all of our data.
+ Following are the peformed CRUD operations.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Add User Input
+\end_layout
+
+\begin_layout Standard
+The create function allows users to create a new record in the database.
+ In the SQL relational database application, the Create function is called
+ INSERT.
+ In Oracle HCM Cloud, it is called create.
+ Remember that a record is a row and that columns are termed attributes.
+ A user can create a new row and populate it with data that corresponds
+ to each attribute, but only an administrator might be able to add new attribute
+s to the table itself.
+ Before we discuss what the modified route will look like, we should think
+ about what we want to happen when we submit the form.
+ Once we have finished creating a file, it would be a bit silly to render
+ another HTML page telling us that we just created a file.
+ Instead, it would make more sense to go back to the index page and see
+ an updated list of all the file.
+ So, how can we make another request to send us the index page? To do that
+ we have to introduce a concept called "redirecting."
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Redirect:
+\series default
+ A redirect is actually two separate requests:
+\end_layout
+
+\begin_layout Itemize
+First, the server sends a response with a header called 'location' with
+ a value that is a route
+\end_layout
+
+\begin_layout Itemize
+The browser recieves the response and immidiately issues a new request to
+ the route provided in the location header
+\end_layout
+
+\begin_layout Itemize
+If the route exists on the server, the server responds accordingly (or returns
+ a 404 status code (page not found)).
+ To do this with Flask, we need to import redirect.
+ We will also import url_for so that we do not have to "hard code" our routes,
+ as well as request which we will use to collect data from a form.
+\end_layout
+
+\begin_layout Standard
+Notice that we had to specify in our @app.route for file that our application
+ should accept both GET and POST.
+ Then, inside of index, we can handle each case separately.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+@app.route("/add-users", methods=["POST"])
+\end_layout
+
+\begin_layout Plain Layout
+
+def add_user():
+\end_layout
+
+\begin_layout Plain Layout
+
+    db = get_database()
+\end_layout
+
+\begin_layout Plain Layout
+
+    data = request.get_json()
+\end_layout
+
+\begin_layout Plain Layout
+
+    db.get_collection("users").insert_one({
+\end_layout
+
+\begin_layout Plain Layout
+
+        "name": data["name"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "email": data["email"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "contact": data["contact"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "password": data["password"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "age": data["age"]
+\end_layout
+
+\begin_layout Plain Layout
+
+    })
+\end_layout
+
+\begin_layout Plain Layout
+
+    return jsonify({
+\end_layout
+
+\begin_layout Plain Layout
+
+        "response": "Added"
+\end_layout
+
+\begin_layout Plain Layout
+
+    })
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Add User Input
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/Add user output_1.png
+	width 14cm
+	height 4.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/Add user output_2.png
+	width 14cm
+	height 4.85cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Add User Output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Get User Input
+\end_layout
+
+\begin_layout Standard
+The read function is similar to a search function.
+ It allows users to search and retrieve specific records in the table and
+ read their values.
+ Users may be able to find desired records using keywords, or by filtering
+ the data based on customized criteria.
+ For example, a database of cars might enable users to type in "1996 Toyota
+ Corolla", or it might provide options to filter search results by make,
+ model and year.
+ Now that we are able to read new functions, let's make a route to show
+ some additional information about the functions.
+ In order for this to work, we are going to need a way to find individual
+ functions by their id.
+ Let's make a route that includes a dynamic parameter called id which is
+ an integer.
+ Let's call the function that this route triggers show.
+ Now let's create a simple page that shows more information about the file.
+ Let's also add a link for us to edit a file.
+ We will call this function edit, and since we need to specify which toy
+ to edit, we will pass an id of a file to this url.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+@app.route('/get-users', methods=["GET"])
+\end_layout
+
+\begin_layout Plain Layout
+
+def get_users():
+\end_layout
+
+\begin_layout Plain Layout
+
+    db = get_database()
+\end_layout
+
+\begin_layout Plain Layout
+
+    items = db.get_collection("users").find()
+\end_layout
+
+\begin_layout Plain Layout
+
+    array = [item for item in items]
+\end_layout
+
+\begin_layout Plain Layout
+
+    print(array)
+\end_layout
+
+\begin_layout Plain Layout
+
+    return "hello"
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Get User Input
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/get user output_2.png
+	width 8.8cm
+	height 6.2cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Get User Output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Delete User Input
+\end_layout
+
+\begin_layout Standard
+The delete function allows users to remove records from a database that
+ is no longer needed.
+ Both SQL and Oracle HCM Cloud have a delete function that allows users
+ to delete one or more records from the database.
+ Some relational database applications may permit users to perform either
+ a hard delete or a soft delete.
+ A hard delete permanently removes records from the database, while a soft
+ delete might simply update the status of a row to indicate that it has
+ been deleted while leaving the data present and intact.
+ By now you should be able to perform CRU completely within your browser.
+ Next, let's put the D into CRUD by building out the delete functionality.
+ In our edit.html we are going to add another form to delete a file.
+ This is done with a form since we need to make a DELETE request.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+@app.route("/delete-users/<id>", methods=["DELETE"])
+\end_layout
+
+\begin_layout Plain Layout
+
+def delete_users(id):
+\end_layout
+
+\begin_layout Plain Layout
+
+    db = get_database()
+\end_layout
+
+\begin_layout Plain Layout
+
+    db.get_collection("users").delete_one({"_id": ObjectId(id)})
+\end_layout
+
+\begin_layout Plain Layout
+
+    return "User deleted successfully"
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Delete User Input
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/Delete user output_1.png
+	width 14cm
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/Delete user output_2.png
+	width 11cm
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Delete User Output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Update
+\series default
+ 
+\series bold
+User Input
+\end_layout
+
+\begin_layout Standard
+The update function is used to modify existing records that exist in the
+ database.
+ To fully change a record, users may have to modify information in multiple
+ fields.
+ For example, a restaurant that stores recipes for menu items in a database
+ might have a table whose attributes are "dish", "cooking time", "cost"
+ and "price".
+ One day, the chef decides to replace an ingredient in the dish with something
+ different.
+ As a result, the existing record in the database must be changed and all
+ of the attribute values changed to reflect the characteristics of the new
+ dish.
+ In both SQL and Oracle HCM cloud, the update function is simply called
+ "Update".
+ In order to edit a file we need to first make sure we have a route that
+ renders a form for editing.
+ Before we can edit a file, though, we first need to render a page with
+ a form to edit the file.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+@app.route("/update-users/<id>", methods=["PUT"])
+\end_layout
+
+\begin_layout Plain Layout
+
+def update_user(id):
+\end_layout
+
+\begin_layout Plain Layout
+
+    db = get_database()
+\end_layout
+
+\begin_layout Plain Layout
+
+    data = request.get_json()
+\end_layout
+
+\begin_layout Plain Layout
+
+    db.get_collection("users").replace_one(
+\end_layout
+
+\begin_layout Plain Layout
+
+    { "_id": ObjectId(id) },
+\end_layout
+
+\begin_layout Plain Layout
+
+    {
+\end_layout
+
+\begin_layout Plain Layout
+
+        "name": data["name"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "email": data["email"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "contact": data["contact"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "password": data["password"],
+\end_layout
+
+\begin_layout Plain Layout
+
+        "age": data["age"]
+\end_layout
+
+\begin_layout Plain Layout
+
+    })
+\end_layout
+
+\begin_layout Plain Layout
+
+    return jsonify({
+\end_layout
+
+\begin_layout Plain Layout
+
+        "response": "updated"
+\end_layout
+
+\begin_layout Plain Layout
+
+    })
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Update User Input
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/Update user output_1.png
+	width 15cm
+	height 5.3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/Update user output_2.png
+	width 15cm
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Update User Output
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+HTTP Requests Log
+\end_layout
+
+\begin_layout Standard
+An HTTP request is made by a client, to a named host, which is located on
+ a server.
+ The aim of the request is to access a resource on the server.
+ To make the request, the client uses components of a URL (Uniform Resource
+ Locator), which includes the information needed to access the resource.
+
+\series medium
+ HTTP Logging is a middleware that logs information about HTTP requests
+ and HTTP responses.
+ HTTP logging provides logs of: HTTP request information, Common properties
+ and Headers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/HTTP Requests Log.png
+	width 16cm
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+HTTP Requests Log
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Methodology
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Literature Review
+\end_layout
+
+\begin_layout Standard
+Literature review played a significant part in building up a basic end to
+ end artificial intelligence based depression detection model.
+ Going through various Literature Surveys, it enables us to create a groom
+ and technically skillful Data Science live working model.
+ After reviewing various research papers, we conclude the summary of those
+ research papers below:- 
+\end_layout
+
+\begin_layout Standard
+From the paper "Topological Data Analysis to Engineer Features from Audio
+ Signals for Depression Detection" we conclude that by Applying TDA to timeserie
+s allows for the extraction of features relating to the shape of the data.we
+ believe the DA features are more robust to the variance of audio expression
+ between participants which is one of the main challenges in depression
+ detection from audio 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-3"
+literal "false"
+
+\end_inset
+
+.
+ From the paper "Identifying Depression in a Person Using Speech Signal"
+ by Extracting Energy and Statistical Features.
+ The deification of depressed people has successfully done with average
+ 81.567% of test set audio with no over fitting 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+From the paper "The Detection of Depression Using Multimodal Models Based
+ on Text and Voice Quality Features."The Text analysis model & Voice quality
+ model performs detection of depression on word-level using a transcript
+ of the individual's interview with a virtual interviewer.
+ They had created a voice quality analysis model that uses five glottal
+ flow voice features 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-11"
+literal "false"
+
+\end_inset
+
+.
+ From the paper "Multi-Modal Depression Detection and Estimation" This paper
+ has used audio and/or visual data to address depression.
+ Compared to audio and visual cues, few rescarch focus on the higher level
+ feature - the language information.
+ Depression Classification and Depression Estimation are considered at the
+ same time, better performance could be obtained 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+From the paper "Multimodal Spatiotemporal Representation for Automatic Depressio
+n Level Detection" LPQ feature was extracted from each frame of a video
+ segment and used the mean of these features as the video segment-level
+ feature in the competition of AVEC2013 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-13"
+literal "false"
+
+\end_inset
+
+.
+ From the paper "Hybrid CNN-SVM classifier for efficient depression detection
+ system" they have used novel audio based approach to automatically detect
+ depression using hybrid model.
+ This model combines convolutional neural networks (CNN) and support vector
+ machines (VM), where SVM takes the place of the fully connected layers
+ in CNN 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+From the paper "Extraction of Facial Features as Indicators of Stress and
+ Anxiety" The result directs at initial study that aims to find an effective
+ approach of stress and anxiety assessment using facial signs consisting
+ of the mouth activity, head motion, heart rate, blink rate and eye movements.
+ Several features have been analyzed, which had been calculated by a set
+ of different algorithms, each targeting a specific facial region 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+literal "false"
+
+\end_inset
+
+.
+ From the paper "Automatic Depression Level Detection through Visual Input"
+ he key idea was to develop a video-based decision network system that can
+ detect the depression of the user.
+ The system provides the result to the user in the form of document consisting
+ the detected depression level.
+ The convolutional 3D model resulting in detection of salient features from
+ an input image to provide an emotion vector categorized as: Angry, Sad,
+ Happy, Surprise, Fear and Neutral.
+ the classification of the user into one out of 4 levels: Minimal level,
+ Mild level, Moderate level, or Severe level depression is achieved 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Comparison
+\end_layout
+
+\begin_layout Standard
+This section should have table where you need to compare the results from
+ different prominent research of area of interest.
+ Below mentioned Research papers were compared in order to get the most
+ efficient one.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Literature Review
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/table 1.png
+	width 16.5cm
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/table 2.jpg
+	width 16.5cm
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Dataset / Exploratory Data Analysis
+\end_layout
+
+\begin_layout Standard
+We are using the Dataset provided by RML, which consists of depresed and
+ healthy audio, vedio, of (90-95) patients, with embedded audios in vedios
+ and the length of the video is 15-20 minutes each.
+ The video consist of a doctor and a patient, when a doctor is intervewing
+ the patient about their mental health.
+ Lifestyle, choices, recent happening were asked in the interview which
+ gives the narration or overview of their lives in the last few months.
+\end_layout
+
+\begin_layout Standard
+In all total our dataset consists of positive skewed audios that is biased
+ in comparison to depressed people audios.
+ The table below represents the number of Audio sample provided as a part
+ of the Dataset we used to train our model:-
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+EDA of Audio Samples
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AUDIO SAMPLE NAME
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NUMBER OF SLICES
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ACTUAL LABEL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PREDICTED LABEL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AIC 304 (HEALTHY)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100% HEALTHY
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100% HEALTHY
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AI 159 (DEPRESSED)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100% DEPRESSED
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40% DEPRESSED
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Subsubsection
+Multimodal Depression Detection using Deep Learning Algorithm
+\end_layout
+
+\begin_layout Standard
+As multimodal approaches are found to be effective in depression analysis
+ as depression is a multifactor disorder.
+ So a unimodal approaches in depression detection will only give some informatio
+n without considering the important features.
+ So the future works should follow a multimodal approach and it has been
+ found that deep learning based classification gave significant improvement
+ in accuracy compared to traditional machine learning approaches.
+ It is found that the multimodal performs much better in the detection of
+ depression as it considers several factors for the classification of emotions.
+ Single modality may give only one sided information or may miss out an
+ inherent parameter.
+ 
+\end_layout
+
+\begin_layout Standard
+Our model will be  based on three basic factors using which we will diagnose
+ depression are as follows:-  
+\end_layout
+
+\begin_layout Itemize
+Audio
+\end_layout
+
+\begin_layout Itemize
+Video
+\end_layout
+
+\begin_layout Itemize
+Text
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Downloads/WhatsApp Image 2021-12-19 at 9.23.00 AM.jpeg
+	width 10cm
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Multimodal Depression Detection using Deep Learning Algorithm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Audio based Model 
+\end_layout
+
+\begin_layout Standard
+Audio has been successfully used in the detection of sentiment for a long
+ time.
+ Via our literature survey, we came to the conclusion that audio has a rich
+ history of application in the area of emotion detection with proven results.
+ Hence, our first endeavour was targeted at audio-based AI models.
+ Since emotion detection is a similar classification problem, we have used
+ some characteristics of those models.
+ After thorough experimentation with various approaches involving complete
+ audio vs audio slices (with various intervals) and MEL features vs MFCC
+ features among others, the following conditions were giving us the best
+ results: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Features Used:
+\series default
+ MEL Spectrograms of audio slices.
+ The before mentioned audio slices are of duration 80 seconds with an overlap
+ of 10 seconds with the content of the previous audio sample.
+ Other slicing durations were tried ranging from an overlap period between
+ 5 seconds and 20 seconds with the total duration of the sample ranging
+ from 20 seconds to 180 seconds.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Model Used: 
+\series default
+A simple CNN-based architecture was used with only 2 layers of convolution,
+ 1 flatten layer, and 2 dense layers.
+ The dropout was set at 20% and MaxPooling layers were added after the convoluti
+onal layers.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Accuracy:
+\series default
+ The accuracy that we got with the model was 85% over the validation set.
+\end_layout
+
+\begin_layout Standard
+We've some plots of the MEL & MFCC features and also a waveform that illustrates
+ the slicing procedure we have described earlier.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/e8a3202b-56b6-4d82-bf09-a5b8d00b7def.jpg
+	width 8cm
+	height 6cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+MEL spectrogram
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/f82ecbce-f2fa-4247-800f-090aef585c7b.jpg
+	width 8cm
+	height 6cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+MFCC analysis of the Audio file
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/wave form.jpg
+	width 12cm
+	height 3cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Slicing mechanism of Audio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Video based Model
+\end_layout
+
+\begin_layout Standard
+Artificial Intelligence combines various strategies to distinguish depression
+ in a person through visual or vocal narratives.
+\end_layout
+
+\begin_layout Subsubsection*
+(i) Blink Detection Model
+\end_layout
+
+\begin_layout Standard
+We have built a model that is capable of detecting and counting blinks in
+ video streams using facial landmarks and OpenCV.
+ The model is performing well for grayscale videos having dimensions of
+ 640 X 360.
+ We have also tried for RGB videos but the model is not performing as well
+ which is why we converted RGB videos to grayscale.
+ The following conditions were giving us the best results:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Features Used: 
+\series default
+To build the blink detector we have computed a metric called the eye aspect
+ ratio (EAR).
+ Once the person blinks the eye aspect ratio rapidly drops close to zero,
+ then increases again, indicating a single blink has taken place.
+ The video slices are of duration 30 seconds with an overlap of 10 seconds.
+ Other slicing durations were tried for example, 70 sec with an overlap
+ of 10 seconds.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Model Used: 
+\series default
+shape_predictor_68_face_landmarks.dat model creates the predictor object
+ that takes in an image region containing some object and outputs a set
+ of point locations that define the pose of the object.
+ dlib.get_frontal_face_detector was used for detecting the faces in a frame.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Accuracy: 
+\series default
+The accuracy was pretty good in each frame.
+\end_layout
+
+\begin_layout Subsubsection*
+(ii) MTCNN Model
+\end_layout
+
+\begin_layout Standard
+The architecture of MTCNN is mentioned below: 
+\end_layout
+
+\begin_layout Subsubsection*
+Stage 1: The Proposal Network (P-Net)
+\end_layout
+
+\begin_layout Standard
+This first stage is a fully convolutional network (FCN).
+ The proposal network is used to obtain candidate windows and their bounding
+ box coordinates using regression.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/b18c076e-2535-4390-93fe-ba76c81b46e6.jpg
+	width 11cm
+	height 3cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The Proposal Network (P-Net)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Stage 2: The Refine Network (R-Net) 
+\end_layout
+
+\begin_layout Standard
+All candidates from the P-Net are fed into the Refine Network, which is
+ a CNN.
+ The R-Net outputs wether the input is a face or not, a 4 element vector
+ which is the bounding box for the face, and a 10 element vector for facial
+ landmark localization.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/8e757084-edbd-4129-9ed5-5d4f7e237a42.jpg
+	width 11cm
+	height 3cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The Refine Network (R-Net)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Stage 3: The Output Network (O-Net) 
+\end_layout
+
+\begin_layout Standard
+This stage is similar to the R-Net, but this Output Network aims to describe
+ the face in more detail and output the five facial landmarks’ positions
+ for eyes, nose and mouth.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/c6c0f10c-c9f4-4401-ad0c-76c7b8114c52.jpg
+	width 11cm
+	height 3cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The Output Network (O-Net)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+The Three Tasks of MTCNN: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Face Classification: 
+\series default
+This is a binary classification problem that uses cross-entropy loss.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Bounding Box Regression:
+\series default
+ For each candidate window, the offset between the candidate and the nearest
+ ground truth is calculated.
+ Euclidean loss is employed for this task.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Facial Landmark Localization: 
+\series default
+The localization of facial landmarks is formulated as a regression problem,
+ in which the loss function is Euclidean distance.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Accuracy: 
+\series default
+The accuracy that we got with the model was a promising 95% against the
+ human perception.
+\end_layout
+
+\begin_layout Standard
+The image below shows the execution of the model.
+ It takes on an average 7-8 min to process a slice of around 400 frames:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Downloads/WhatsApp Image 2021-12-10 at 18.36.12.jpeg
+	width 14cm
+	height 4cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Execution of model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Every emotion is calculated and the output is put on a scale of 0 to 1 ,
+ with values close to 0 indicating complete absence of that emotion and
+ values close to 1 indicating dominant presence of that emotion.
+ These were directly converted to percentage to show what percentage of
+ each emotion is present in that particular slice of video: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/Untitled.png
+	width 14cm
+	height 1.1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Slice of video
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The image below contains shows a sample of the final tabulated results,
+ where we have human perception of sliced videos as ground truth:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Downloads/WhatsApp Image 2021-12-10 at 18.36.12 (1).jpeg
+	width 14cm
+	height 3cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Final tabulated results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Transcription of Audios
+\end_layout
+
+\begin_layout Standard
+Since the audio is in Hindi most of the time, we need to have the text in
+ the Devanagari script.
+ For the same, we were initially considering Microsoft Azure Speech to Text.
+ However, upon close inspection of their privacy policy, we came to the
+ conclusion that we cannot use the service and would hence have to rely
+ on manual transcription.
+ Manually transcription was indeed a time consuming task for about 100 to
+ 200 audios.
+ Further, we are looking forward for some softwares that can generate results
+ accurately with respect to the transcription work.
+ 
+\end_layout
+
+\begin_layout Standard
+Herein we have a glimpse of the discussion between Doctor and Patient.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/transcription.png
+	width 10cm
+	height 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Example of Transcript Audio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Implementation, Testing and Maintenance
+\end_layout
+
+\begin_layout Subsection
+Introduction to Languages, Tools & Technologies used for Implementation
+\end_layout
+
+\begin_layout Standard
+Then languages that we used in our project is
+\series bold
+ 
+\series default
+HTML, CSS and ANGULAR as our Frontend and Python as our Backend for API’s
+ and backend Scripting.
+ Frontend languages that we used in our project helps build interactive
+ and dynamic web application through its compelling features that include
+ templating, two-way binding and Restful API’s handling.
+ Python is a natural choice for the API because of its simplicity and power.
+ For the same reasons, Angular is a great choice on the client side.
+ Angular’s use of TypeScript makes it easy to get started with and still
+ powerful enough to handle your most advanced scenarios.
+\end_layout
+
+\begin_layout Subsubsection
+Video based AI models
+\end_layout
+
+\begin_layout Standard
+Artificial Intelligence (AI) combines various strategies to distinguish
+ depression in a person through visual or vocal narratives.
+ Researches show that disheartened people differ in their physiological
+ as well as physical features.
+ Depression shows through an assortment of visual indications.
+ Sudden changes in the movement of facial muscles and electrodermal skin
+ reactions regularly reflect the incessant and persevering negative consideratio
+ns and sentiments of misery that portray sadness.
+ Visual signs have extensively been investigated for depression detection.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+(a) Blink Detection Model
+\end_layout
+
+\begin_layout Standard
+We have built a model that is capable of detecting and counting blinks in
+ video streams using facial landmarks and OpenCV.
+ To build the blink detector we have computed a metric called the eye aspect
+ ratio (EAR).
+ Fig:- The eye is represented by a set of 6 labeled facial points with specific
+ coordinates.
+ Horizontal line is distance between points 𝑝1 and 𝑝4 (width of an eye),
+ and vertical line is distance between middle of points 𝑝2 and 𝑝3 and middle
+ of points 𝑝6 and 𝑝5 (height of an eye.) The length of the horizontal line
+ will always be a constant, while the length of the vertical line will change
+ depending on the opening and closing of the eye.
+ We can detect blinking by calculating the length of these two lines and
+ then finding the ratio between them.
+ This ratio will be approximately constant while the eye is open, and it
+ will quickly fall to zero when a blink occurs.
+ We can calculate the aspect ratio with the following equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/SABUDHASSIGN/e69c19bf-d8c1-46a2-96b8-50e2e8e80d9b.jpg
+	width 12cm
+	height 2cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Eye Aspect Ratio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(b) Eyeball Detection Model
+\end_layout
+
+\begin_layout Standard
+The first thing we have we have done is to find eyes before we can move
+ on to image processing and to find the eyes, we need to find a face.
+ The facial KeyPoint detector takes a rectangular object of the dlib module
+ as input which is simply the coordinates of a face.
+ We have created a new black mask using NumPy of the same dimensions as
+ frame.
+ After doing this we have a black mask where the eye area is drawn in white.
+ This white area is expanded a little using a morphological operation.
+ Thresholding is used to create a binary mask.
+ So, our task was to find an optimal threshold value against which we can
+ segment out the eyeballs from the rest of the eye and then we need to find
+ its center.
+ But the threshold value will be different for different lighting conditions
+ so we can make an adjustable trackbar for controlling the threshold value.so
+ this was the methodology for eyeball detection model.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/SABUDHASSIGN/78f662b7-2dad-44e9-9082-11e0f871dd7d.jpg
+	width 7cm
+	height 5cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Six labeled facial points of eye with specific coordinates
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+(c) FER Model 
+\end_layout
+
+\begin_layout Standard
+For detecting emotions from videos, we used the Face Emotion Recognizer
+ (FER) library, an opensource library and has dependencies on OpenCV and
+ Tensorflow.
+ It is a CNN based model with weights saved in a hdf5 file present in the
+ source code .
+ This can be overridden by using the FER constructor() when the model is
+ called and initiated.
+ The FER constructor() is initialized by giving it a face detection classifier
+ (either OpenCV Haarcascade or MTCNN) .
+ We used the MTCNN classifier.
+ 80 slices of the videos from the RML data, of 10 seconds each and without
+ overlap, were fed into the model.
+ Out of them, 40 slices each, having a total duration of 200 sec, belonged
+ to 2 healthy controls and 2 depressed subjects.
+ It draws bounding boxes around the detected faces and then classifies the
+ detection of emotion- namely into six categories, namely, ‘fear’, ‘neutral’,
+ ‘happy’, ’sad’, ‘anger’, and ‘disgust’.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Testing Techniques and Test Plans
+\end_layout
+
+\begin_layout Subsubsection
+Blink Detection Model
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+from scipy.spatial import distance as dist
+\end_layout
+
+\begin_layout Plain Layout
+
+from imutils.video import FileVideoStream
+\end_layout
+
+\begin_layout Plain Layout
+
+from imutils.video import VideoStream
+\end_layout
+
+\begin_layout Plain Layout
+
+from google.colab.patches import cv2_imshow
+\end_layout
+
+\begin_layout Plain Layout
+
+from imutils import face_utils
+\end_layout
+
+\begin_layout Plain Layout
+
+import numpy as np
+\end_layout
+
+\begin_layout Plain Layout
+
+import argparse
+\end_layout
+
+\begin_layout Plain Layout
+
+import imutils
+\end_layout
+
+\begin_layout Plain Layout
+
+import time
+\end_layout
+
+\begin_layout Plain Layout
+
+import dlib
+\end_layout
+
+\begin_layout Plain Layout
+
+import cv2
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def eye_aspect_ratio(eye):
+\end_layout
+
+\begin_layout Plain Layout
+
+  A = dist.euclidean(eye[1], eye[5])
+\end_layout
+
+\begin_layout Plain Layout
+
+  B = dist.euclidean(eye[2], eye[4])
+\end_layout
+
+\begin_layout Plain Layout
+
+  C = dist.euclidean(eye[0], eye[3])
+\end_layout
+
+\begin_layout Plain Layout
+
+  #Compute the eye aspect ratio
+\end_layout
+
+\begin_layout Plain Layout
+
+  ear = (A + B)/(2.0 * C)
+\end_layout
+
+\begin_layout Plain Layout
+
+  return ear
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+p = '/content/shape_predictor_68_face_landmarks.dat'
+\end_layout
+
+\begin_layout Plain Layout
+
+v = '/content/drive/MvDrive/Ruhika/27AT_108.mp4'
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+EYE_AR_THRESH = 0.3
+\end_layout
+
+\begin_layout Plain Layout
+
+EYE_AR_THRESH_FRAMES = 3
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+#extract the left and right eye coordinates, then use the
+\end_layout
+
+\begin_layout Plain Layout
+
+#coordinates to compute the eye aspect ratio for both eyes
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+leftEye = shape[lStart: lEnd]
+\end_layout
+
+\begin_layout Plain Layout
+
+rightEye = shape[rStart: rEnd ]
+\end_layout
+
+\begin_layout Plain Layout
+
+leftEAR = eye_aspect_ratio(leftEye)
+\end_layout
+
+\begin_layout Plain Layout
+
+rightEAR = eye_aspect_ratio(rightEye)
+\end_layout
+
+\begin_layout Plain Layout
+
+ear = (leftEAR + rightEAR) / 2.0
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+#compute the convex hull for the left and right eye, then
+\end_layout
+
+\begin_layout Plain Layout
+
+#visualize each of the eyes
+\end_layout
+
+\begin_layout Plain Layout
+
+leftEyeHull = cv2.convexHull(leftEye)
+\end_layout
+
+\begin_layout Plain Layout
+
+rightEyeHull = cv2.convexHull(rightEye)
+\end_layout
+
+\begin_layout Plain Layout
+
+cv.drawContours(gray, [leftEyeHull], -1, (0, 255, 0), 1)
+\end_layout
+
+\begin_layout Plain Layout
+
+cv2.drawContours(gray, [rightEyeHull], -1, (0, 255, 0), 1)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+if ear < EYE AR THRESH:
+\end_layout
+
+\begin_layout Plain Layout
+
+  COUNTER += 1
+\end_layout
+
+\begin_layout Plain Layout
+
+#otherwise, the eye aspect ratio is not below the blink threshold
+\end_layout
+
+\begin_layout Plain Layout
+
+else:
+\end_layout
+
+\begin_layout Plain Layout
+
+  if COUNTER >= EYE_AR_CONSEC_FRAMES:
+\end_layout
+
+\begin_layout Plain Layout
+
+    TOTAL += 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Calculating Eye Aspect Ratio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "numbers=left"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+TOTAL = 0
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+print ("[INFO] loading facial landmark predictor...")
+\end_layout
+
+\begin_layout Plain Layout
+
+detector = dlib.get_frontal_face_detector ()
+\end_layout
+
+\begin_layout Plain Layout
+
+predictor = dlib.shape_predictor (p)
+\end_layout
+
+\begin_layout Plain Layout
+
+(lStart, lEnd) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye" ]
+\end_layout
+
+\begin_layout Plain Layout
+
+(rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye" ]
+\end_layout
+
+\begin_layout Plain Layout
+
+print ("[INFO] starting video stream thread...")
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+vs =  FileVideoStream (v) .start ()
+\end_layout
+
+\begin_layout Plain Layout
+
+fileStream = True
+\end_layout
+
+\begin_layout Plain Layout
+
+time.sleep(1.0)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+while True:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  #if this is a file video stream, then we need to check if there
+\end_layout
+
+\begin_layout Plain Layout
+
+  #any more frames left in the buffer to process
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  if fileStream and not vs.more) :
+\end_layout
+
+\begin_layout Plain Layout
+
+    break
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  #grab the frame from the threaded video file stream, resize it,
+\end_layout
+
+\begin_layout Plain Layout
+
+  #and convert it to grayscale channels
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  frame = vs.read()
+\end_layout
+
+\begin_layout Plain Layout
+
+  frame = imutils.resize (frame, width = 450)
+\end_layout
+
+\begin_layout Plain Layout
+
+  gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+  #detect faces in the grayscale frame
+\end_layout
+
+\begin_layout Plain Layout
+
+  rects = detector (gray, 0)
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+  #loop over the face detections
+\end_layout
+
+\begin_layout Plain Layout
+
+  # reset the eye frame counter
+\end_layout
+
+\begin_layout Plain Layout
+
+COUNTER = 0
+\end_layout
+
+\begin_layout Plain Layout
+
+#draw the total number Of blinks on the frame along with the
+\end_layout
+
+\begin_layout Plain Layout
+
+#computed eye aspect ratio for the frame
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+cv2.putText (gray, "Blinks: {}".format(TOTAL), (10, 30),
+\end_layout
+
+\begin_layout Plain Layout
+
+             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2    
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+cv2.putText (gray, "EAR: {:.
+ 2ft}".format(ear), (300, 30),
+\end_layout
+
+\begin_layout Plain Layout
+
+             cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+#show the frame
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+cv2_imshow(gray)
+\end_layout
+
+\begin_layout Plain Layout
+
+key = cv2.waitKey(1) & 0xFF
+\end_layout
+
+\begin_layout Plain Layout
+
+#if the break `q` key was pressed, break from the loop
+\end_layout
+
+\begin_layout Plain Layout
+
+if key == ord("q"):
+\end_layout
+
+\begin_layout Plain Layout
+
+  break
+\end_layout
+
+\begin_layout Plain Layout
+
+# do a bit of cleanup
+\end_layout
+
+\begin_layout Plain Layout
+
+cv2.destroyAllWindows()
+\end_layout
+
+\begin_layout Plain Layout
+
+vs.stop()
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Determine the facial Landmarks for the face region
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Test cases used in the Project
+\end_layout
+
+\begin_layout Subsubsection
+Testing of Eye Blink Detection Model
+\end_layout
+
+\begin_layout Standard
+The model is performing well for grayscale videos having dimensions of 640
+ X 360.
+ We have also tried for RGB videos but the model is not performing as well
+ which is why we converted RGB videos to grayscale.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Downloads/WhatsApp Image 2021-12-19 at 9.18.03 AM.jpeg
+	width 11cm
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Testing of Eye Blink Detection Model on different modes.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Blink Detection Model Sample
+\end_layout
+
+\begin_layout Standard
+The samples are as following:-
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/SABUDHASSIGN/b.jpg
+	width 12cm
+	height 6cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Eye blink detection for actual blink.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/Desktop/SABUDHASSIGN/c.jpg
+	width 12cm
+	height 6cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Non detection Blink.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Results and Discussions
+\end_layout
+
+\begin_layout Subsection
+User Interface Representation
+\end_layout
+
+\begin_layout Standard
+Our system is designed in such a way that it enables the doctor to manage
+ appointments with the patients through a web interface wrt the data provided
+ by the hospital.
+ The doctor can even track the health status of the patient depending upon
+ the level of his/her mental condition.
+\end_layout
+
+\begin_layout Subsubsection
+Login Profile
+\end_layout
+
+\begin_layout Standard
+The figure below gives a glimpse of the login page for our website hosted
+ for Lifeback Organization run by RML Hospital.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/login.png
+	width 13cm
+	height 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Login Page
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Doctor's Profile
+\end_layout
+
+\begin_layout Standard
+The snippet alongside represents the profile and appointment schedule of
+ one of the doctors from RML Hospital.
+ The schedule contains the unique RML IDs, Name of Patient, Appointment
+ date, and time.
+ This pannel even contains a place to upload videos, audio, and text for
+ carrying out further consultation with the patients.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/dr_profile.png
+	width 13cm
+	height 8cm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Doctor's Profile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Patient's Profile
+\end_layout
+
+\begin_layout Standard
+The image alongside shows the Patient name with his/her profile depicting
+ the percentage rise and fall in the depression rate of the person each
+ day.
+ It also shows the number of visits and number of uploads made with time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename D:/DELL/Desktop/Sabudh Final PPT + PDF + Lyx/Final PPT + Report + Lyx (20 Dec, 2021)/Updated First Draft file/UI-UX/patients.png
+	width 13cm
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Patient's Profile
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+\SpecialChar ligaturebreak
+
+\end_layout
+
+\begin_layout Standard
+After thorough experimentation with various approaches involving complete
+ audio vs audio slices (with various intervals) and MEL features vs MFCC
+ features among others, the following conditions were giving us the best
+ results: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Features Used:
+\series default
+ MEL Spectrograms of audio slices.
+ The aforementioned audio slices are of duration 80 seconds with an overlap
+ of 10 seconds with the content of the previous audio sample.
+ Other slicing durations were tried ranging from an overlap period between
+ 5 seconds and 20 seconds with the total duration of the sample ranging
+ from 20 seconds to 180 seconds.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Model Used:
+\series default
+ A simple CNN-based architecture was used with only 2 layers of convolution,
+ 1 flatten layer, and 2 dense layers.
+ The dropout was set at 20% and MaxPooling layers were added after the convoluti
+onal layers.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Accuracy
+\series default
+: The accuracy that we got with the model was 85% over the validation set.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusion and Future Scope
+\end_layout
+
+\begin_layout Subsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+For blink detection model we could detect and count the number of blinks
+ in each frame and its accuracy was found to be pretty good.
+ The accuracy we observed from FER model was promising 95% against the human
+ perception.
+ The UI/UX part assisted doctors in detecting the level of depression by
+ providing a variety of outcomes based on machine learning algorithms.
+ Doctors can even track and manage the appointments of patients using this
+ system.
+ Transcription of varied audios with reference to healthy and depressed
+ people for detection of depression using ASR to text conversion.
+ There are varied other features that are to be extracted from the depression
+ detection model in the present case.
+ For carrying out these further implementations the project is still under
+ progress.
+\end_layout
+
+\begin_layout Subsection
+Future scope
+\end_layout
+
+\begin_layout Standard
+We have created a feature list in the form of possible questions that we
+ want to ask the data via the use of specialized AI-based models.
+ They belong to the modalities of audio and video.
+ They are as follows:
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Audio
+\end_layout
+
+\begin_layout Enumerate
+Vocal prosody, which includes fundamental frequency perceived as pitch,
+ intensity perceived as loudness, and timing perceived as speech rate.
+\end_layout
+
+\begin_layout Enumerate
+The low intensity of speech in depressed patients (Less Energetic).
+\end_layout
+
+\begin_layout Enumerate
+Switching Pause Duration—Switching pause (SP), or latency to speak, is defined
+ as the pause duration between the end of one speaker's utterance and the
+ start of an utterance by the other
+\end_layout
+
+\begin_layout Enumerate
+Very less to no presence of energetic laughter (or even just laughter) in
+ patients.
+\end_layout
+
+\begin_layout Subsubsection
+Video
+\end_layout
+
+\begin_layout Enumerate
+Is the Veraguth & Omega sign appearing? 
+\end_layout
+
+\begin_layout Enumerate
+Analysis of Eye Closure Duration Based on the Height of Iris.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Pauses while speaking.
+\end_layout
+
+\begin_layout Enumerate
+Inner brow raiser (sadness), brow lowered (sadness), nasolabial furrow deepener
+ (distress), lip corner depressor (distress) 
+\end_layout
+
+\begin_layout Enumerate
+Head Pose and Movement Analysis.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Eye stare - restricted, shorter eye to eye connection.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Is voice pitch energetic or not? 
+\end_layout
+
+\begin_layout Enumerate
+Duration of eye remaining close.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Extended activity of Corrugator Supercilii muscle.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Slumped or limp body posture.
+ 
+\end_layout
+
+\begin_layout Standard
+These questions were still not answered while we have pretty good accuracy
+ when it comes to visual emotion recognition and audio classification still,
+ we wanted to ask questions via ML model so that it increases the explain
+ ability of the result that we get and also kind of improve the credibility.
+ for further investigation smaller models can be created wherein all these
+ smaller model outputs will be assign weightages and give out a final prediction
+ based on all the output we have for whether a person is depressed or not.
+ 
+\end_layout
+
+\begin_layout Section*
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+ML Tlachac;Adam Sargent;Ermal Toto;Randy Paffenroth; Elke Rundensteiner
+ 2020 19th IEEE International Conference on Machine Learning and Applications
+ (ICMLA) Year: 2020 | Conference Paper | Publisher: IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/9356319
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+literal "false"
+
+\end_inset
+
+Dimple Muskan Shukla;Kushal Sharma;Sandeep Gupta 2020 IEEE International
+ Students' Conference on Electrical,Electronics and Computer Science (SCEECS)
+ Year: 2020 | Conference Paper | Publisher: IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/9087223 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+literal "false"
+
+\end_inset
+
+Hanadi Solieman;Evgenii A.
+ Pustozerov 2021 IEEE Conference of Russian Young Researchers in Electrical
+ and Electronic Engineering (ElConRus) Year: 2021 | Conference Paper | Publisher
+: IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/9396540 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
+literal "false"
+
+\end_inset
+
+Le Yang 2019 8th International Conference on Affective Computing and Intelligent
+ Interaction Workshops and Demos (ACIIW) Year: 2019 | Conference Paper |
+ Publisher: IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/8925288 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-13"
+literal "false"
+
+\end_inset
+
+Mingyue Niu;Jianhua Tao;Bin Liu;Jian Huang;Zheng Lian IEEE Transactions
+ on Affective Computing Year: 2020 | Early Access Article | Publisher: IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/9226102 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-14"
+literal "false"
+
+\end_inset
+
+Afef Saidi;Slim Ben Othman;Slim Ben Saoud 2020 4th International Conference
+ on Advanced Systems and Emergent Technologies (IC_ASET) Year: 2020 | Conference
+ Paper | Publisher: IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/9318302 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-22"
+literal "false"
+
+\end_inset
+
+M.
+ Pediaditis;G.
+ Giannakakis;F.
+ Chiarugi;D.
+ Manousos;A.
+ Pampouchidou;E.
+ Christinaki;G.
+ Iatraki;E.
+ Kazantzaki;P.
+ G.
+ Simos;K.
+ Marias;M.
+ Tsiknakis 2015 37th Annual International Conference of the IEEE Engineering
+ in Medicine and Biology Society (EMBC) Year: 2015 | Conference Paper |
+ Publisher: IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/7319199 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-21"
+literal "false"
+
+\end_inset
+
+Akshada Mulay;Anagha Dhekne;Rasi Wani;Shivani Kadam;Pranjali Deshpande;Pritish
+ Deshpande 2020 Fourth World Conference on Smart Trends in Systems, Security
+ and Sustainability (WorldS4) Year: 2020 | Conference Paper | Publisher:
+ IEEE.
+ [Online].
+ Available: https://ieeexplore.ieee.org/document/9210301
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+https://towardsdatascience.com/real-time-eye-tracking-using-opencv-and-dlib-b504c
+a724ac6
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+https://www.researchgate.net/publication/259931796_Eye_movement_analysis
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+https://www.researchgate.net/publication/789931776_Eye_movement_analysis
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
+\end_inset
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4791067/
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+https://www.nature.com/articles/s41599-020-0499-z
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+Yifang Yuan;Qingxiang Wang 2019 IEEE International Conference on Data Science
+ and Advanced Analytics (DSAA) Year: 2019 | Conference Paper | Publisher:
+ IEEE.
+ [Online].
+ Available:: https://ieeexplore.ieee.org/document/8964128
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+
+\end_inset
+
+https://www.researchgate.net/publication316451292_Analysis_of_Eye_Closure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
