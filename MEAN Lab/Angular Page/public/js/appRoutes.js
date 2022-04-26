@@ -8,7 +8,7 @@ angular.module('appRoutes', []).config(['$routeProvider',
             })
             // students page that will use the StudentController
             .when('/students', {
-                templateUrl: 'views/student.html',
+                templateUrl: 'views/students.html',
                 controller: 'StudentController'
             });
         $locationProvider.html5Mode(true);

@@ -1,7 +1,7 @@
 // modules =================================================
 const express = require('express');
 const app = express();
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 //var methodOverride = require('method-override');
 // set our port
 const port = 3000;
@@ -15,9 +15,9 @@ app.use(express.static(__dirname + '/public'));
 
 
 // config files
-var db = require('./config/db');
-console.log("connecting--", db);
-mongoose.connect(db.url); //Mongoose connection created
+// var db = require('./config/db');
+// console.log("connecting--", db);
+// mongoose.connect(db.url); //Mongoose connection created
 
 // frontend routes =========================================================
 //app.get('/', (req, res) => res.send('Welcome to Mean Project!'));
